@@ -1,0 +1,9 @@
+tk
+zbar
+numpy
+qrtools
+pypng
+pyqrcode
+firebase-admin
+qrcode
+zbarlight
