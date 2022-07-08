@@ -1,4 +1,4 @@
-#Swiggline
+<h1>Swiggline</h1>
 
 
 #### What can it do?
@@ -14,8 +14,8 @@
 <br />
 
 
-###User Journey
-###Send Money
+#### User Journey
+#### Send Money
 1. Food is being delivered to the user, and they've opted for COD.
 2. Once the delivery guy comes in, they can show the QR code containing the 
 details of the customer and the amount that needs to be paid.
@@ -26,7 +26,7 @@ the screenshot for the same.
 containing the details is updated.
 
 
-###Add Money
+#### Add Money
 1. Wallet of a user can be recharged with any source possible.
 2. User needs to be online in order to recharge.
 3. Future possibilities of user asking for coupon/voucher could be used.
@@ -34,14 +34,14 @@ containing the details is updated.
 <br />
 <br />
 
-###How to test?
+#### How to test?
 
-###Installation
+#### Installation
 1. start a virtual environment
 2. pip3 -m install requirements.txt
-3. If you face any issue with installation or regarding zbarlight, refer appendix
+3. If you face any issue with installation or regarding zbarlight, refer appendix below.
 
-###Send Money
+#### Send Money
 
 1. Run SendMoneyTest.py with any one of the input.
 2. Run SendMoney.py
@@ -49,7 +49,7 @@ containing the details is updated.
 <br />
 <br />
 
-###Future enhancements
+#### Future enhancements
 
 1. Adding tkinter to make a proper app 
 2. How to add image functionality? 
@@ -58,9 +58,11 @@ containing the details is updated.
    3. Add the image path to SendMoney.py
 3. Adding support for AddMoney
 
+<br />
+<br />
+<br />
 
-
-####Appendix
+#### Appendix
 1. For firebase-admin, if on M1 mac:
    1. xcode-select --install
    2. arch -arch x86_64 </usr/bin/python3> -m pip install firebase-admin
